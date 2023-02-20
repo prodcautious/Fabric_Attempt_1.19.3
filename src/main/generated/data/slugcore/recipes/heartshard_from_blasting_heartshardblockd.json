@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 190,
+  "experience": 1.0,
+  "group": "heart_shard",
+  "ingredient": {
+    "item": "slugcore:heartshardblockd"
+  },
+  "result": "slugcore:heartshard"
+}

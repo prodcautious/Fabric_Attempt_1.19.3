@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "heart_shard",
+  "ingredient": {
+    "item": "slugcore:heartshardblocks"
+  },
+  "result": "slugcore:heartshard"
+}

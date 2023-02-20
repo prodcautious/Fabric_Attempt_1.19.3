@@ -1,4 +1,4 @@
-package net.cautious.slugcore.datagen;
+package net.cautious.slugcore.data;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;

@@ -1,8 +1,7 @@
-package net.cautious.slugcore.datagen;
+package net.cautious.slugcore.data;
 
-import net.cautious.slugcore.block.SlugCoreBlocks;
-import net.cautious.slugcore.world.feature.SlugCoreConfiguredFeatures;
-import net.cautious.slugcore.world.feature.SlugCorePlacedFeatures;
+import net.cautious.slugcore.world.SlugCoreConfiguredFeatures;
+import net.cautious.slugcore.world.SlugCorePlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;

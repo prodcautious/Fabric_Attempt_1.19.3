@@ -1,4 +1,4 @@
-package net.cautious.slugcore.world.feature;
+package net.cautious.slugcore.world;
 
 import net.cautious.slugcore.SlugCore;
 import net.cautious.slugcore.block.SlugCoreBlocks;
@@ -14,7 +14,7 @@ import java.util.List;
 
 public class SlugCorePlacedFeatures {
     public static final RegistryKey<PlacedFeature> BLOOD_CHECKED_KEY = registerKey("blood_tree_checked");
-    public static final RegistryKey<PlacedFeature> BLOOD_PLACED_KEY = registerKey("blood_tree_checked");
+    public static final RegistryKey<PlacedFeature> BLOOD_PLACED_KEY = registerKey("blood_tree_placed");
 
 
     public static void bootstrap(Registerable<PlacedFeature> context) {

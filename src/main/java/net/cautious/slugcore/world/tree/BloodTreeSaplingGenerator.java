@@ -1,6 +1,6 @@
-package net.cautious.slugcore.world.feature.tree;
+package net.cautious.slugcore.world.tree;
 
-import net.cautious.slugcore.world.feature.SlugCoreConfiguredFeatures;
+import net.cautious.slugcore.world.SlugCoreConfiguredFeatures;
 import net.minecraft.block.sapling.SaplingGenerator;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.math.random.Random;

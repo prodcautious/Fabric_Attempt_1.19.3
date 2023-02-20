@@ -3,7 +3,7 @@ package net.cautious.slugcore.block;
 import net.cautious.slugcore.SlugCore;
 import net.cautious.slugcore.block.custom.*;
 import net.cautious.slugcore.item.SlugCoreItemGroup;
-import net.cautious.slugcore.world.feature.tree.BloodTreeSaplingGenerator;
+import net.cautious.slugcore.world.tree.BloodTreeSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;

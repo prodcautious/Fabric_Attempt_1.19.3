@@ -1,5 +1,6 @@
-package net.cautious.slugcore.datagen;
+package net.cautious.slugcore.data;
 
+import net.cautious.slugcore.SlugCore;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricDynamicRegistryProvider;
 import net.minecraft.registry.RegistryKeys;
@@ -20,6 +21,6 @@ public class SlugCoreWorldGenerator extends FabricDynamicRegistryProvider {
 
     @Override
     public String getName() {
-        return null;
+        return SlugCore.MOD_ID;
     }
 }

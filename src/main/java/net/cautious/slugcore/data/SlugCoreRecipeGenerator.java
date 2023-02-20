@@ -1,12 +1,10 @@
-package net.cautious.slugcore.datagen;
+package net.cautious.slugcore.data;
 
 import net.cautious.slugcore.block.SlugCoreBlocks;
 import net.cautious.slugcore.item.SlugCoreItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
-import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
-import net.minecraft.recipe.ShapedRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 
 import java.util.List;

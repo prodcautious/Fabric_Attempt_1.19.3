@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "slugcore:blood_log",
+    "slugcore:blood_wood",
+    "slugcore:stripped_blood_log",
+    "slugcore:stripped_blood_wood"
+  ]
+}

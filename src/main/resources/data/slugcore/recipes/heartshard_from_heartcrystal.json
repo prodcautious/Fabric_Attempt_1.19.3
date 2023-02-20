@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slugcore:heartcrystal"
+    }
+  ],
+  "result": {
+    "item": "slugcore:heartshard",
+    "count": 9
+  }
+}

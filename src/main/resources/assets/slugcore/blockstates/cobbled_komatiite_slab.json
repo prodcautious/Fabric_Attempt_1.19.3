@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "slugcore:block/cobbled_komatiite_slab"
+    },
+    "type=double": {
+      "model": "slugcore:block/cobbled_komatiite"
+    },
+    "type=top": {
+      "model": "slugcore:block/cobbled_komatiite_slab_top"
+    }
+  }
+}

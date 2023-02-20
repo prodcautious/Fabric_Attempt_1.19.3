@@ -1,0 +1,34 @@
+{
+  "block.slugcore.heartshardblockd": "Heart Shard Deepslate Ore",
+  "block.slugcore.heartshardblocks": "Heart Shard Ore",
+  "block.slugcore.lettuce_crop": "Lettuce Crop",
+  "block.slugcore.sorcerers_block": "Sorcerers Block",
+  "block.slugcore.komatiite": "Komatiite",
+  "block.slugcore.cobbled_komatiite": "Cobbled Komatiite",
+  "block.slugcore.komatiite_stone_bricks": "Komatiite Bricks",
+
+  "block.slugcore.blood_log": "Blood Log",
+  "block.slugcore.blood_wood": "Blood Wood",
+  "block.slugcore.stripped_blood_log": "Stripped Blood Log",
+  "block.slugcore.stripped_blood_wood": "Stripped Blood Wood",
+  "block.slugcore.blood_planks": "Blood Planks",
+  "block.slugcore.blood_leaves": "Blood Leaves",
+  "block.slugcore.blood_sapling": "Blood Sapling",
+
+  "item.slugcore.heartcrystal": "Heart Crystal",
+  "item.slugcore.lettuce": "Lettuce",
+  "item.slugcore.lettuce_seeds": "Lettuce Seeds",
+  "item.slugcore.heartshard": "Heart Shard",
+
+  "slugcore.crafting.tooltip": "(Crafting Ingredient)",
+  "slugcore.special.tooltip": "(Special)",
+  "slugcore.ore.tooltip": "(Ore)",
+  "slugcore.farming.tooltip": "(Farming)",
+  "slugcore.alchemy.tooltip": "(Alchemy)",
+
+  "itemgroup.special": "Special",
+  "itemgroup.ores": "Ores",
+  "itemgroup.farming": "Farming",
+  "itemgroup.crafting": "Crafting",
+  "itemgroup.alchemy": "Alchemy"
+}

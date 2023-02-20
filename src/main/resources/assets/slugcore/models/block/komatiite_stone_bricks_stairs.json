@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "slugcore:block/komatiite_stone_bricks",
+    "side": "slugcore:block/komatiite_stone_bricks",
+    "top": "slugcore:block/komatiite_stone_bricks"
+  }
+}

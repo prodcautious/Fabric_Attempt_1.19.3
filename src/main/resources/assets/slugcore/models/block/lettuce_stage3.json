@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "slugcore:block/lettuce_stage3"
+  }
+}

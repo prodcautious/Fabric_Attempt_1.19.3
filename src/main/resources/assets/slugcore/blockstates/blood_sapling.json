@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "slugcore:block/blood_sapling"
+    }
+  }
+}

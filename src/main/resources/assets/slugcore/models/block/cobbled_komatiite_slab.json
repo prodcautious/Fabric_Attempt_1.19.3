@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "slugcore:block/cobbled_komatiite",
-    "side": "slugcore:block/cobbled_komatiite",
-    "top": "slugcore:block/cobbled_komatiite"
-  }
-}

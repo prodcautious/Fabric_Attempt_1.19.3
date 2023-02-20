@@ -40,8 +40,7 @@ public class SlugCoreBlocks {
     public static final Block BLOOD_LEAVES = registerBlock("blood_leaves",
             new Blood_Leaves_Block(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), SlugCoreItemGroup.ALCHEMY);
     public static final Block BLOOD_SAPLING = registerBlock("blood_sapling",
-            new BloodSaplingBlock(new BloodTreeSaplingGenerator(),
-                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), SlugCoreItemGroup.ALCHEMY);
+            new SaplingBlock(new BloodTreeSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()), SlugCoreItemGroup.ALCHEMY);
 
     public static final Block KOMATIITE = registerBlock("komatiite",
             new Block(FabricBlockSettings.of(Material.STONE).strength(1.6f).requiresTool()), SlugCoreItemGroup.ORES);
@@ -50,22 +49,26 @@ public class SlugCoreBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(1.8f).requiresTool()), SlugCoreItemGroup.ORES);
     public static final Block KOMATIITE_STONE_BRICKS = registerBlock("komatiite_stone_bricks",
             new Block(FabricBlockSettings.of(Material.STONE).strength(2.0f).requiresTool()), SlugCoreItemGroup.ORES);
+
+
     private static Block registerBlockWihoutItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, new Identifier(SlugCore.MOD_ID, name), block);
     }
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
-        registerBlockitem(name, block, group);
+        registerBlockItem(name, block, group);
         return Registry.register(Registries.BLOCK, new Identifier(SlugCore.MOD_ID, name), block);
     }
-    private static Item registerBlockitem(String name, Block block, ItemGroup group) {
+
+    private static Item registerBlockItem(String name, Block block, ItemGroup group) {
         Item item = Registry.register(Registries.ITEM, new Identifier(SlugCore.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
         ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
         return item;
     }
 
-    public static void registerSlugCoreBlocks() {
+
+    public static void registerSlugCoreblocks() {
         SlugCore.LOGGER.info("Registering SlugCoreBlocks for " + SlugCore.MOD_ID);
     }
 }

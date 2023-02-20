@@ -2,14 +2,13 @@ package net.cautious.slugcore;
 
 import net.cautious.slugcore.block.SlugCoreBlocks;
 
-import net.cautious.slugcore.data.SlugCoreWorldGenerator;
+import net.cautious.slugcore.block.SlugCoreFlammableBlockRegistry;
 import net.cautious.slugcore.item.SlugCoreItemGroup;
 import net.cautious.slugcore.item.SlugCoreItems;
-import net.cautious.slugcore.util.FlammableBlocks;
-import net.cautious.slugcore.util.StrippableBlocks;
 import net.cautious.slugcore.world.gen.SlugCoreWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,11 +22,12 @@ public class SlugCore implements ModInitializer {
 	public void onInitialize() {
 		SlugCoreItemGroup.registerItemGroups();
 		SlugCoreItems.registerSlugCoreItems();
-		SlugCoreBlocks.registerSlugCoreBlocks();
+		SlugCoreBlocks.registerSlugCoreblocks();
 		SlugCoreWorldGeneration.generateSlugCoreWorldGen();
 
 
-		FlammableBlocks.registerFlammableBlocks();
-		StrippableBlocks.registerStrippables();
+		SlugCoreFlammableBlockRegistry.registerFlammableBlocks();
+		StrippableBlockRegistry.register(SlugCoreBlocks.BLOOD_LOG, SlugCoreBlocks.STRIPPED_BLOOD_LOG);
+		StrippableBlockRegistry.register(SlugCoreBlocks.BLOOD_WOOD, SlugCoreBlocks.STRIPPED_BLOOD_WOOD);
 	}
 }

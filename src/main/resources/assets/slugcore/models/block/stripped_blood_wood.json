@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "slugcore:block/stripped_blood_log",
-    "side": "slugcore:block/stripped_blood_log"
-  }
-}

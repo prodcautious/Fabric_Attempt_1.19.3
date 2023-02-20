@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "slugcore:block/komatiite",
-    "side": "slugcore:block/komatiite",
-    "top": "slugcore:block/komatiite"
-  }
-}

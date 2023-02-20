@@ -17,15 +17,19 @@ public class SlugCoreRecipeGenerator extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
-        offerSmelting(exporter, List.of(SlugCoreBlocks.HEART_SHARD_ORE_S), RecipeCategory.BUILDING_BLOCKS, SlugCoreItems.HEART_SHARD,
-                3f, 300,"heartshard");
+        offerSmelting(exporter, List.of(SlugCoreBlocks.HEART_SHARD_ORE_S), RecipeCategory.MISC, SlugCoreItems.HEART_SHARD,
+                0.7f, 200, "heart_shard");
 
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, SlugCoreItems.HEART_SHARD, RecipeCategory.BUILDING_BLOCKS, SlugCoreItems.HEART_CRYSTAL);
+        offerBlasting(exporter, List.of(SlugCoreBlocks.HEART_SHARD_ORE_S), RecipeCategory.MISC, SlugCoreItems.HEART_SHARD,
+                0.8f, 180, "heart_shard");
 
-        offerShapelessRecipe(exporter, SlugCoreBlocks.BLOOD_PLANKS, SlugCoreBlocks.BLOOD_LOG, "bloodplanks", 4);
+        offerSmelting(exporter, List.of(SlugCoreBlocks.HEART_SHARD_ORE_D), RecipeCategory.MISC, SlugCoreItems.HEART_SHARD,
+                0.7f, 210, "heart_shard");
 
+        offerBlasting(exporter, List.of(SlugCoreBlocks.HEART_SHARD_ORE_D), RecipeCategory.MISC, SlugCoreItems.HEART_SHARD,
+                1.0f, 190, "heart_shard");
 
-
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, SlugCoreItems.HEART_SHARD, RecipeCategory.MISC,
+                SlugCoreItems.HEART_CRYSTAL);
     }
-
 }
